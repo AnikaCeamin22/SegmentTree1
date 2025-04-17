@@ -53,7 +53,7 @@ public:
         if(b>j || e<i) return;
         if(b>=i && e<=j)
         {
-            seg[node]=x; //change
+            lazy[node]=x; //change
             pushLazy(node,b,e);
             return;
         }
